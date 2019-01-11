@@ -7,21 +7,138 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E3D9FCC21E7FBE900026B0C /* IntroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3D9FCB21E7FBE900026B0C /* IntroVC.swift */; };
+		4E3D9FCE21E7FFF300026B0C /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3D9FCD21E7FFF300026B0C /* AboutVC.swift */; };
+		4E3D9FD021E809DD00026B0C /* Timers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E3D9FCF21E809DD00026B0C /* Timers.storyboard */; };
+		4E3D9FE921E8212F00026B0C /* CoverVerticalAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3D9FD221E8212F00026B0C /* CoverVerticalAnimation.swift */; };
+		4E3D9FEA21E8212F00026B0C /* PresentrController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3D9FD321E8212F00026B0C /* PresentrController.swift */; };
+		4E3D9FEB21E8212F00026B0C /* Presentr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3D9FD421E8212F00026B0C /* Presentr.swift */; };
+		4E3D9FEC21E8212F00026B0C /* PresentrShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3D9FD521E8212F00026B0C /* PresentrShadow.swift */; };
+		4E3D9FED21E8212F00026B0C /* FlipHorizontalAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3D9FD621E8212F00026B0C /* FlipHorizontalAnimation.swift */; };
+		4E3D9FEE21E8212F00026B0C /* CoverHorizontalAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3D9FD721E8212F00026B0C /* CoverHorizontalAnimation.swift */; };
+		4E3D9FEF21E8212F00026B0C /* SourceSansPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E3D9FD821E8212F00026B0C /* SourceSansPro-Regular.ttf */; };
+		4E3D9FF021E8212F00026B0C /* AlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E3D9FD921E8212F00026B0C /* AlertViewController.xib */; };
+		4E3D9FF121E8212F00026B0C /* CoverFromCornerAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3D9FDA21E8212F00026B0C /* CoverFromCornerAnimation.swift */; };
+		4E3D9FF221E8212F00026B0C /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3D9FDB21E8212F00026B0C /* AlertViewController.swift */; };
+		4E3D9FF321E8212F00026B0C /* PresentrAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3D9FDC21E8212F00026B0C /* PresentrAnimation.swift */; };
+		4E3D9FF421E8212F00026B0C /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3D9FDD21E8212F00026B0C /* BackgroundView.swift */; };
+		4E3D9FF521E8212F00026B0C /* TransitionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3D9FDE21E8212F00026B0C /* TransitionType.swift */; };
+		4E3D9FF621E8212F00026B0C /* KeyboardTranslation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3D9FDF21E8212F00026B0C /* KeyboardTranslation.swift */; };
+		4E3D9FF721E8212F00026B0C /* PresentationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3D9FE021E8212F00026B0C /* PresentationType.swift */; };
+		4E3D9FF821E8212F00026B0C /* CrossDissolveAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3D9FE221E8212F00026B0C /* CrossDissolveAnimation.swift */; };
+		4E3D9FF921E8212F00026B0C /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E3D9FE321E8212F00026B0C /* Montserrat-Regular.ttf */; };
+		4E3D9FFA21E8212F00026B0C /* ModalCenterPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3D9FE421E8212F00026B0C /* ModalCenterPosition.swift */; };
+		4E3D9FFB21E8212F00026B0C /* CoverVerticalFromTopAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3D9FE521E8212F00026B0C /* CoverVerticalFromTopAnimation.swift */; };
+		4E3D9FFD21E8212F00026B0C /* Presentr+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3D9FE721E8212F00026B0C /* Presentr+Equatable.swift */; };
+		4E3D9FFE21E8212F00026B0C /* ModalSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3D9FE821E8212F00026B0C /* ModalSize.swift */; };
+		4E3DA00021E8215900026B0C /* TimerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3D9FFF21E8215900026B0C /* TimerVC.swift */; };
+		4E3DA00321E824C400026B0C /* ExerciseTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3DA00221E824C400026B0C /* ExerciseTimer.swift */; };
+		4E3DA00521E8253800026B0C /* TimerEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3DA00421E8253800026B0C /* TimerEvent.swift */; };
 		4EDB1AEF21C9C000002E8776 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB1AEE21C9C000002E8776 /* AppDelegate.swift */; };
-		4EDB1AF121C9C000002E8776 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB1AF021C9C000002E8776 /* ViewController.swift */; };
+		4EDB1AF121C9C000002E8776 /* PagesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB1AF021C9C000002E8776 /* PagesVC.swift */; };
 		4EDB1AF421C9C000002E8776 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EDB1AF221C9C000002E8776 /* Main.storyboard */; };
 		4EDB1AF621C9C001002E8776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EDB1AF521C9C001002E8776 /* Assets.xcassets */; };
 		4EDB1AF921C9C001002E8776 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EDB1AF721C9C001002E8776 /* LaunchScreen.storyboard */; };
+		4EDB1B0221C9C026002E8776 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB1B0121C9C026002E8776 /* Exercise.swift */; };
+		4EDB1B0421C9C08A002E8776 /* Repetitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB1B0321C9C08A002E8776 /* Repetitions.swift */; };
+		4EDB1B0621C9C0C7002E8776 /* ExerciseDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB1B0521C9C0C7002E8776 /* ExerciseDatabase.swift */; };
+		4EDB1B2921C9C496002E8776 /* PageboyViewController+Management.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB1B0C21C9C496002E8776 /* PageboyViewController+Management.swift */; };
+		4EDB1B2A21C9C496002E8776 /* PageboyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB1B0D21C9C496002E8776 /* PageboyViewController.swift */; };
+		4EDB1B2B21C9C496002E8776 /* PageboyAutoScroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB1B0F21C9C496002E8776 /* PageboyAutoScroller.swift */; };
+		4EDB1B2C21C9C496002E8776 /* PageboyViewController+AutoScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB1B1021C9C496002E8776 /* PageboyViewController+AutoScrolling.swift */; };
+		4EDB1B2D21C9C496002E8776 /* PageboyViewController+ScrollCalculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB1B1121C9C496002E8776 /* PageboyViewController+ScrollCalculations.swift */; };
+		4EDB1B2E21C9C496002E8776 /* UIView+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB1B1421C9C496002E8776 /* UIView+Localization.swift */; };
+		4EDB1B2F21C9C496002E8776 /* UIScrollView+ScrollActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB1B1521C9C496002E8776 /* UIScrollView+ScrollActivity.swift */; };
+		4EDB1B3021C9C496002E8776 /* UIView+AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB1B1621C9C496002E8776 /* UIView+AutoLayout.swift */; };
+		4EDB1B3121C9C496002E8776 /* UIApplication+SafeShared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB1B1721C9C496002E8776 /* UIApplication+SafeShared.swift */; };
+		4EDB1B3221C9C496002E8776 /* UIPageViewController+ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB1B1821C9C496002E8776 /* UIPageViewController+ScrollView.swift */; };
+		4EDB1B3321C9C496002E8776 /* UIView+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB1B1921C9C496002E8776 /* UIView+Animation.swift */; };
+		4EDB1B3421C9C496002E8776 /* PageboyViewController+ScrollDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB1B1A21C9C496002E8776 /* PageboyViewController+ScrollDetection.swift */; };
+		4EDB1B3521C9C496002E8776 /* PageboyViewController+Transitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB1B1C21C9C496002E8776 /* PageboyViewController+Transitioning.swift */; };
+		4EDB1B3621C9C496002E8776 /* TransitionOperation+Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB1B1D21C9C496002E8776 /* TransitionOperation+Action.swift */; };
+		4EDB1B3721C9C496002E8776 /* TransitionOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB1B1E21C9C496002E8776 /* TransitionOperation.swift */; };
+		4EDB1B3821C9C496002E8776 /* NavigationDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB1B2021C9C496002E8776 /* NavigationDirection.swift */; };
+		4EDB1B3921C9C496002E8776 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB1B2121C9C496002E8776 /* Page.swift */; };
+		4EDB1B3A21C9C496002E8776 /* PageboyViewController+Updating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB1B2321C9C496002E8776 /* PageboyViewController+Updating.swift */; };
+		4EDB1B3B21C9C496002E8776 /* PageboyViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB1B2521C9C496002E8776 /* PageboyViewControllerDelegate.swift */; };
+		4EDB1B3C21C9C496002E8776 /* PageboyViewControllerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB1B2621C9C496002E8776 /* PageboyViewControllerDataSource.swift */; };
+		4EDB1B3E21C9C496002E8776 /* UIViewController+Pageboy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB1B2821C9C496002E8776 /* UIViewController+Pageboy.swift */; };
+		4EDB1B4021C9C4D0002E8776 /* ExerciseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB1B3F21C9C4D0002E8776 /* ExerciseVC.swift */; };
+		4EDB1B4321C9C52E002E8776 /* Exercise.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EDB1B4221C9C52E002E8776 /* Exercise.storyboard */; };
+		4EDB1B4521C9C56B002E8776 /* PagesDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB1B4421C9C56B002E8776 /* PagesDataSource.swift */; };
+		4EDB1B4821C9C96B002E8776 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB1B4721C9C96B002E8776 /* AppCoordinator.swift */; };
+		4EDB1B4A21C9CD38002E8776 /* ExerciseGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB1B4921C9CD38002E8776 /* ExerciseGroup.swift */; };
+		4EDB1B4C21C9CE60002E8776 /* Routine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB1B4B21C9CE60002E8776 /* Routine.swift */; };
+		4EDB1B4E21C9D1A1002E8776 /* ExerciseDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB1B4D21C9D1A1002E8776 /* ExerciseDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E3D9FCB21E7FBE900026B0C /* IntroVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroVC.swift; sourceTree = "<group>"; };
+		4E3D9FCD21E7FFF300026B0C /* AboutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
+		4E3D9FCF21E809DD00026B0C /* Timers.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Timers.storyboard; sourceTree = "<group>"; };
+		4E3D9FD221E8212F00026B0C /* CoverVerticalAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoverVerticalAnimation.swift; sourceTree = "<group>"; };
+		4E3D9FD321E8212F00026B0C /* PresentrController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentrController.swift; sourceTree = "<group>"; };
+		4E3D9FD421E8212F00026B0C /* Presentr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Presentr.swift; sourceTree = "<group>"; };
+		4E3D9FD521E8212F00026B0C /* PresentrShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentrShadow.swift; sourceTree = "<group>"; };
+		4E3D9FD621E8212F00026B0C /* FlipHorizontalAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipHorizontalAnimation.swift; sourceTree = "<group>"; };
+		4E3D9FD721E8212F00026B0C /* CoverHorizontalAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoverHorizontalAnimation.swift; sourceTree = "<group>"; };
+		4E3D9FD821E8212F00026B0C /* SourceSansPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Regular.ttf"; sourceTree = "<group>"; };
+		4E3D9FD921E8212F00026B0C /* AlertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlertViewController.xib; sourceTree = "<group>"; };
+		4E3D9FDA21E8212F00026B0C /* CoverFromCornerAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoverFromCornerAnimation.swift; sourceTree = "<group>"; };
+		4E3D9FDB21E8212F00026B0C /* AlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		4E3D9FDC21E8212F00026B0C /* PresentrAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentrAnimation.swift; sourceTree = "<group>"; };
+		4E3D9FDD21E8212F00026B0C /* BackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		4E3D9FDE21E8212F00026B0C /* TransitionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionType.swift; sourceTree = "<group>"; };
+		4E3D9FDF21E8212F00026B0C /* KeyboardTranslation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardTranslation.swift; sourceTree = "<group>"; };
+		4E3D9FE021E8212F00026B0C /* PresentationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationType.swift; sourceTree = "<group>"; };
+		4E3D9FE221E8212F00026B0C /* CrossDissolveAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossDissolveAnimation.swift; sourceTree = "<group>"; };
+		4E3D9FE321E8212F00026B0C /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		4E3D9FE421E8212F00026B0C /* ModalCenterPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalCenterPosition.swift; sourceTree = "<group>"; };
+		4E3D9FE521E8212F00026B0C /* CoverVerticalFromTopAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoverVerticalFromTopAnimation.swift; sourceTree = "<group>"; };
+		4E3D9FE721E8212F00026B0C /* Presentr+Equatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Presentr+Equatable.swift"; sourceTree = "<group>"; };
+		4E3D9FE821E8212F00026B0C /* ModalSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalSize.swift; sourceTree = "<group>"; };
+		4E3D9FFF21E8215900026B0C /* TimerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerVC.swift; sourceTree = "<group>"; };
+		4E3DA00221E824C400026B0C /* ExerciseTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseTimer.swift; sourceTree = "<group>"; };
+		4E3DA00421E8253800026B0C /* TimerEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerEvent.swift; sourceTree = "<group>"; };
 		4EDB1AEB21C9C000002E8776 /* BodyweightRoutine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BodyweightRoutine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EDB1AEE21C9C000002E8776 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4EDB1AF021C9C000002E8776 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4EDB1AF021C9C000002E8776 /* PagesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagesVC.swift; sourceTree = "<group>"; };
 		4EDB1AF321C9C000002E8776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4EDB1AF521C9C001002E8776 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EDB1AF821C9C001002E8776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4EDB1AFA21C9C001002E8776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EDB1B0121C9C026002E8776 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		4EDB1B0321C9C08A002E8776 /* Repetitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repetitions.swift; sourceTree = "<group>"; };
+		4EDB1B0521C9C0C7002E8776 /* ExerciseDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDatabase.swift; sourceTree = "<group>"; };
+		4EDB1B0C21C9C496002E8776 /* PageboyViewController+Management.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PageboyViewController+Management.swift"; sourceTree = "<group>"; };
+		4EDB1B0D21C9C496002E8776 /* PageboyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageboyViewController.swift; sourceTree = "<group>"; };
+		4EDB1B0F21C9C496002E8776 /* PageboyAutoScroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageboyAutoScroller.swift; sourceTree = "<group>"; };
+		4EDB1B1021C9C496002E8776 /* PageboyViewController+AutoScrolling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PageboyViewController+AutoScrolling.swift"; sourceTree = "<group>"; };
+		4EDB1B1121C9C496002E8776 /* PageboyViewController+ScrollCalculations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PageboyViewController+ScrollCalculations.swift"; sourceTree = "<group>"; };
+		4EDB1B1421C9C496002E8776 /* UIView+Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Localization.swift"; sourceTree = "<group>"; };
+		4EDB1B1521C9C496002E8776 /* UIScrollView+ScrollActivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+ScrollActivity.swift"; sourceTree = "<group>"; };
+		4EDB1B1621C9C496002E8776 /* UIView+AutoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+AutoLayout.swift"; sourceTree = "<group>"; };
+		4EDB1B1721C9C496002E8776 /* UIApplication+SafeShared.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+SafeShared.swift"; sourceTree = "<group>"; };
+		4EDB1B1821C9C496002E8776 /* UIPageViewController+ScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIPageViewController+ScrollView.swift"; sourceTree = "<group>"; };
+		4EDB1B1921C9C496002E8776 /* UIView+Animation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Animation.swift"; sourceTree = "<group>"; };
+		4EDB1B1A21C9C496002E8776 /* PageboyViewController+ScrollDetection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PageboyViewController+ScrollDetection.swift"; sourceTree = "<group>"; };
+		4EDB1B1C21C9C496002E8776 /* PageboyViewController+Transitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PageboyViewController+Transitioning.swift"; sourceTree = "<group>"; };
+		4EDB1B1D21C9C496002E8776 /* TransitionOperation+Action.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TransitionOperation+Action.swift"; sourceTree = "<group>"; };
+		4EDB1B1E21C9C496002E8776 /* TransitionOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionOperation.swift; sourceTree = "<group>"; };
+		4EDB1B2021C9C496002E8776 /* NavigationDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationDirection.swift; sourceTree = "<group>"; };
+		4EDB1B2121C9C496002E8776 /* Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		4EDB1B2221C9C496002E8776 /* Pageboy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pageboy.h; sourceTree = "<group>"; };
+		4EDB1B2321C9C496002E8776 /* PageboyViewController+Updating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PageboyViewController+Updating.swift"; sourceTree = "<group>"; };
+		4EDB1B2521C9C496002E8776 /* PageboyViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageboyViewControllerDelegate.swift; sourceTree = "<group>"; };
+		4EDB1B2621C9C496002E8776 /* PageboyViewControllerDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageboyViewControllerDataSource.swift; sourceTree = "<group>"; };
+		4EDB1B2821C9C496002E8776 /* UIViewController+Pageboy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Pageboy.swift"; sourceTree = "<group>"; };
+		4EDB1B3F21C9C4D0002E8776 /* ExerciseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseVC.swift; sourceTree = "<group>"; };
+		4EDB1B4221C9C52E002E8776 /* Exercise.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Exercise.storyboard; sourceTree = "<group>"; };
+		4EDB1B4421C9C56B002E8776 /* PagesDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagesDataSource.swift; sourceTree = "<group>"; };
+		4EDB1B4721C9C96B002E8776 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		4EDB1B4921C9CD38002E8776 /* ExerciseGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseGroup.swift; sourceTree = "<group>"; };
+		4EDB1B4B21C9CE60002E8776 /* Routine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routine.swift; sourceTree = "<group>"; };
+		4EDB1B4D21C9D1A1002E8776 /* ExerciseDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +152,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E3D9FD121E8212F00026B0C /* Presentr */ = {
+			isa = PBXGroup;
+			children = (
+				4E3D9FD221E8212F00026B0C /* CoverVerticalAnimation.swift */,
+				4E3D9FD321E8212F00026B0C /* PresentrController.swift */,
+				4E3D9FD421E8212F00026B0C /* Presentr.swift */,
+				4E3D9FD521E8212F00026B0C /* PresentrShadow.swift */,
+				4E3D9FD621E8212F00026B0C /* FlipHorizontalAnimation.swift */,
+				4E3D9FD721E8212F00026B0C /* CoverHorizontalAnimation.swift */,
+				4E3D9FD821E8212F00026B0C /* SourceSansPro-Regular.ttf */,
+				4E3D9FD921E8212F00026B0C /* AlertViewController.xib */,
+				4E3D9FDA21E8212F00026B0C /* CoverFromCornerAnimation.swift */,
+				4E3D9FDB21E8212F00026B0C /* AlertViewController.swift */,
+				4E3D9FDC21E8212F00026B0C /* PresentrAnimation.swift */,
+				4E3D9FDD21E8212F00026B0C /* BackgroundView.swift */,
+				4E3D9FDE21E8212F00026B0C /* TransitionType.swift */,
+				4E3D9FDF21E8212F00026B0C /* KeyboardTranslation.swift */,
+				4E3D9FE021E8212F00026B0C /* PresentationType.swift */,
+				4E3D9FE221E8212F00026B0C /* CrossDissolveAnimation.swift */,
+				4E3D9FE321E8212F00026B0C /* Montserrat-Regular.ttf */,
+				4E3D9FE421E8212F00026B0C /* ModalCenterPosition.swift */,
+				4E3D9FE521E8212F00026B0C /* CoverVerticalFromTopAnimation.swift */,
+				4E3D9FE721E8212F00026B0C /* Presentr+Equatable.swift */,
+				4E3D9FE821E8212F00026B0C /* ModalSize.swift */,
+			);
+			path = Presentr;
+			sourceTree = "<group>";
+		};
+		4E3DA00121E824AF00026B0C /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				4E3DA00221E824C400026B0C /* ExerciseTimer.swift */,
+				4E3DA00421E8253800026B0C /* TimerEvent.swift */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
 		4EDB1AE221C9C000002E8776 = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +208,148 @@
 		4EDB1AED21C9C000002E8776 /* BodyweightRoutine */ = {
 			isa = PBXGroup;
 			children = (
+				4EDB1B4621C9C95B002E8776 /* Coordinators */,
+				4EDB1B0021C9C00D002E8776 /* Model */,
+				4EDB1B4121C9C516002E8776 /* Storyboards */,
+				4E3DA00121E824AF00026B0C /* Timer */,
+				4EDB1B0721C9C456002E8776 /* Vendor */,
+				4EDB1B0821C9C46B002E8776 /* ViewControllers */,
 				4EDB1AEE21C9C000002E8776 /* AppDelegate.swift */,
-				4EDB1AF021C9C000002E8776 /* ViewController.swift */,
-				4EDB1AF221C9C000002E8776 /* Main.storyboard */,
 				4EDB1AF521C9C001002E8776 /* Assets.xcassets */,
-				4EDB1AF721C9C001002E8776 /* LaunchScreen.storyboard */,
 				4EDB1AFA21C9C001002E8776 /* Info.plist */,
 			);
 			path = BodyweightRoutine;
+			sourceTree = "<group>";
+		};
+		4EDB1B0021C9C00D002E8776 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4EDB1B0121C9C026002E8776 /* Exercise.swift */,
+				4EDB1B0521C9C0C7002E8776 /* ExerciseDatabase.swift */,
+				4EDB1B4921C9CD38002E8776 /* ExerciseGroup.swift */,
+				4EDB1B0321C9C08A002E8776 /* Repetitions.swift */,
+				4EDB1B4B21C9CE60002E8776 /* Routine.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4EDB1B0721C9C456002E8776 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				4EDB1B0B21C9C496002E8776 /* Pageboy */,
+				4E3D9FD121E8212F00026B0C /* Presentr */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		4EDB1B0821C9C46B002E8776 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4E3D9FCD21E7FFF300026B0C /* AboutVC.swift */,
+				4EDB1B3F21C9C4D0002E8776 /* ExerciseVC.swift */,
+				4EDB1B4D21C9D1A1002E8776 /* ExerciseDataSource.swift */,
+				4E3D9FCB21E7FBE900026B0C /* IntroVC.swift */,
+				4EDB1AF021C9C000002E8776 /* PagesVC.swift */,
+				4EDB1B4421C9C56B002E8776 /* PagesDataSource.swift */,
+				4E3D9FFF21E8215900026B0C /* TimerVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4EDB1B0B21C9C496002E8776 /* Pageboy */ = {
+			isa = PBXGroup;
+			children = (
+				4EDB1B0C21C9C496002E8776 /* PageboyViewController+Management.swift */,
+				4EDB1B0D21C9C496002E8776 /* PageboyViewController.swift */,
+				4EDB1B0E21C9C496002E8776 /* AutoScrolling */,
+				4EDB1B1121C9C496002E8776 /* PageboyViewController+ScrollCalculations.swift */,
+				4EDB1B1221C9C496002E8776 /* Utilities */,
+				4EDB1B1A21C9C496002E8776 /* PageboyViewController+ScrollDetection.swift */,
+				4EDB1B1B21C9C496002E8776 /* Transitioning */,
+				4EDB1B1F21C9C496002E8776 /* Model */,
+				4EDB1B2221C9C496002E8776 /* Pageboy.h */,
+				4EDB1B2321C9C496002E8776 /* PageboyViewController+Updating.swift */,
+				4EDB1B2421C9C496002E8776 /* Protocols */,
+				4EDB1B2821C9C496002E8776 /* UIViewController+Pageboy.swift */,
+			);
+			path = Pageboy;
+			sourceTree = "<group>";
+		};
+		4EDB1B0E21C9C496002E8776 /* AutoScrolling */ = {
+			isa = PBXGroup;
+			children = (
+				4EDB1B0F21C9C496002E8776 /* PageboyAutoScroller.swift */,
+				4EDB1B1021C9C496002E8776 /* PageboyViewController+AutoScrolling.swift */,
+			);
+			path = AutoScrolling;
+			sourceTree = "<group>";
+		};
+		4EDB1B1221C9C496002E8776 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				4EDB1B1321C9C496002E8776 /* Extensions */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		4EDB1B1321C9C496002E8776 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4EDB1B1421C9C496002E8776 /* UIView+Localization.swift */,
+				4EDB1B1521C9C496002E8776 /* UIScrollView+ScrollActivity.swift */,
+				4EDB1B1621C9C496002E8776 /* UIView+AutoLayout.swift */,
+				4EDB1B1721C9C496002E8776 /* UIApplication+SafeShared.swift */,
+				4EDB1B1821C9C496002E8776 /* UIPageViewController+ScrollView.swift */,
+				4EDB1B1921C9C496002E8776 /* UIView+Animation.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4EDB1B1B21C9C496002E8776 /* Transitioning */ = {
+			isa = PBXGroup;
+			children = (
+				4EDB1B1C21C9C496002E8776 /* PageboyViewController+Transitioning.swift */,
+				4EDB1B1D21C9C496002E8776 /* TransitionOperation+Action.swift */,
+				4EDB1B1E21C9C496002E8776 /* TransitionOperation.swift */,
+			);
+			path = Transitioning;
+			sourceTree = "<group>";
+		};
+		4EDB1B1F21C9C496002E8776 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4EDB1B2021C9C496002E8776 /* NavigationDirection.swift */,
+				4EDB1B2121C9C496002E8776 /* Page.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4EDB1B2421C9C496002E8776 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				4EDB1B2521C9C496002E8776 /* PageboyViewControllerDelegate.swift */,
+				4EDB1B2621C9C496002E8776 /* PageboyViewControllerDataSource.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		4EDB1B4121C9C516002E8776 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				4EDB1AF721C9C001002E8776 /* LaunchScreen.storyboard */,
+				4EDB1AF221C9C000002E8776 /* Main.storyboard */,
+				4EDB1B4221C9C52E002E8776 /* Exercise.storyboard */,
+				4E3D9FCF21E809DD00026B0C /* Timers.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		4EDB1B4621C9C95B002E8776 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				4EDB1B4721C9C96B002E8776 /* AppCoordinator.swift */,
+			);
+			path = Coordinators;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +410,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E3D9FF921E8212F00026B0C /* Montserrat-Regular.ttf in Resources */,
+				4EDB1B4321C9C52E002E8776 /* Exercise.storyboard in Resources */,
+				4E3D9FD021E809DD00026B0C /* Timers.storyboard in Resources */,
 				4EDB1AF921C9C001002E8776 /* LaunchScreen.storyboard in Resources */,
 				4EDB1AF621C9C001002E8776 /* Assets.xcassets in Resources */,
 				4EDB1AF421C9C000002E8776 /* Main.storyboard in Resources */,
+				4E3D9FEF21E8212F00026B0C /* SourceSansPro-Regular.ttf in Resources */,
+				4E3D9FF021E8212F00026B0C /* AlertViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +428,61 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EDB1AF121C9C000002E8776 /* ViewController.swift in Sources */,
+				4EDB1B3521C9C496002E8776 /* PageboyViewController+Transitioning.swift in Sources */,
+				4E3D9FF221E8212F00026B0C /* AlertViewController.swift in Sources */,
+				4E3D9FFE21E8212F00026B0C /* ModalSize.swift in Sources */,
+				4E3D9FF421E8212F00026B0C /* BackgroundView.swift in Sources */,
+				4E3D9FF321E8212F00026B0C /* PresentrAnimation.swift in Sources */,
+				4E3D9FFA21E8212F00026B0C /* ModalCenterPosition.swift in Sources */,
+				4E3DA00021E8215900026B0C /* TimerVC.swift in Sources */,
+				4E3DA00321E824C400026B0C /* ExerciseTimer.swift in Sources */,
+				4EDB1AF121C9C000002E8776 /* PagesVC.swift in Sources */,
+				4EDB1B3A21C9C496002E8776 /* PageboyViewController+Updating.swift in Sources */,
+				4EDB1B2921C9C496002E8776 /* PageboyViewController+Management.swift in Sources */,
+				4E3D9FE921E8212F00026B0C /* CoverVerticalAnimation.swift in Sources */,
+				4EDB1B2B21C9C496002E8776 /* PageboyAutoScroller.swift in Sources */,
+				4E3D9FFD21E8212F00026B0C /* Presentr+Equatable.swift in Sources */,
+				4EDB1B3C21C9C496002E8776 /* PageboyViewControllerDataSource.swift in Sources */,
+				4E3D9FF821E8212F00026B0C /* CrossDissolveAnimation.swift in Sources */,
+				4EDB1B4021C9C4D0002E8776 /* ExerciseVC.swift in Sources */,
+				4EDB1B2E21C9C496002E8776 /* UIView+Localization.swift in Sources */,
+				4EDB1B4821C9C96B002E8776 /* AppCoordinator.swift in Sources */,
+				4E3D9FEE21E8212F00026B0C /* CoverHorizontalAnimation.swift in Sources */,
+				4EDB1B2D21C9C496002E8776 /* PageboyViewController+ScrollCalculations.swift in Sources */,
+				4EDB1B3921C9C496002E8776 /* Page.swift in Sources */,
+				4EDB1B3421C9C496002E8776 /* PageboyViewController+ScrollDetection.swift in Sources */,
+				4EDB1B3321C9C496002E8776 /* UIView+Animation.swift in Sources */,
+				4EDB1B4A21C9CD38002E8776 /* ExerciseGroup.swift in Sources */,
+				4E3D9FF721E8212F00026B0C /* PresentationType.swift in Sources */,
+				4E3DA00521E8253800026B0C /* TimerEvent.swift in Sources */,
+				4E3D9FEB21E8212F00026B0C /* Presentr.swift in Sources */,
+				4E3D9FEC21E8212F00026B0C /* PresentrShadow.swift in Sources */,
+				4EDB1B3221C9C496002E8776 /* UIPageViewController+ScrollView.swift in Sources */,
+				4E3D9FF621E8212F00026B0C /* KeyboardTranslation.swift in Sources */,
+				4EDB1B2F21C9C496002E8776 /* UIScrollView+ScrollActivity.swift in Sources */,
+				4E3D9FED21E8212F00026B0C /* FlipHorizontalAnimation.swift in Sources */,
+				4EDB1B3121C9C496002E8776 /* UIApplication+SafeShared.swift in Sources */,
+				4E3D9FCC21E7FBE900026B0C /* IntroVC.swift in Sources */,
+				4EDB1B3621C9C496002E8776 /* TransitionOperation+Action.swift in Sources */,
+				4EDB1B2A21C9C496002E8776 /* PageboyViewController.swift in Sources */,
+				4EDB1B3E21C9C496002E8776 /* UIViewController+Pageboy.swift in Sources */,
+				4E3D9FEA21E8212F00026B0C /* PresentrController.swift in Sources */,
+				4EDB1B3021C9C496002E8776 /* UIView+AutoLayout.swift in Sources */,
+				4EDB1B4521C9C56B002E8776 /* PagesDataSource.swift in Sources */,
+				4E3D9FF121E8212F00026B0C /* CoverFromCornerAnimation.swift in Sources */,
+				4EDB1B4E21C9D1A1002E8776 /* ExerciseDataSource.swift in Sources */,
+				4EDB1B0621C9C0C7002E8776 /* ExerciseDatabase.swift in Sources */,
 				4EDB1AEF21C9C000002E8776 /* AppDelegate.swift in Sources */,
+				4E3D9FFB21E8212F00026B0C /* CoverVerticalFromTopAnimation.swift in Sources */,
+				4EDB1B3721C9C496002E8776 /* TransitionOperation.swift in Sources */,
+				4E3D9FF521E8212F00026B0C /* TransitionType.swift in Sources */,
+				4EDB1B2C21C9C496002E8776 /* PageboyViewController+AutoScrolling.swift in Sources */,
+				4EDB1B4C21C9CE60002E8776 /* Routine.swift in Sources */,
+				4EDB1B0421C9C08A002E8776 /* Repetitions.swift in Sources */,
+				4E3D9FCE21E7FFF300026B0C /* AboutVC.swift in Sources */,
+				4EDB1B3821C9C496002E8776 /* NavigationDirection.swift in Sources */,
+				4EDB1B0221C9C026002E8776 /* Exercise.swift in Sources */,
+				4EDB1B3B21C9C496002E8776 /* PageboyViewControllerDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
