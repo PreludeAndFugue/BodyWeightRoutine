@@ -23,7 +23,7 @@ struct ExerciseDatabase {
             description: "Wake-up & warm-up the neck joint",
             repetitions: .repetitionsPerSide(10),
             correction: nil,
-            imageName: ""
+            imageName: "NeckCircle"
         ),
         Exercise(
             name: "Arm circle forward",
@@ -65,7 +65,7 @@ struct ExerciseDatabase {
             description: "Wake-up & warm-up the spine joint",
             repetitions: .repetitionsPerSide(5),
             correction: nil,
-            imageName: ""
+            imageName: "SpineCircumduction"
         )
     ]
 
@@ -76,56 +76,56 @@ struct ExerciseDatabase {
             description: "Structurally realign and open the shoulders and \"decompress\" the joints",
             repetitions: .seconds(60),
             correction: "Compressed body",
-            imageName: ""
+            imageName: "PassiveHang"
         ),
         Exercise(
             name: "Seal stretch",
             description: "Open the body (the opposite of compression)",
             repetitions: .seconds(60),
             correction: "Compressed body and especially anterior pelvic tilt",
-            imageName: ""
+            imageName: "SealStretch"
         ),
         Exercise(
             name: "Glute bridge",
             description: "Strengthen the hip extensors (while stretching the flexors)",
             repetitions: .repetitions(15),
             correction: "Anterior pelvic tilt",
-            imageName: ""
+            imageName: "GluteBridge"
         ),
         Exercise(
             name: "Reverse tabletop",
             description: "Strengthen the shoulder extensors and scapular retractors (while stretching the flexors)",
             repetitions: .seconds(30),
             correction: "Rounded shoulders",
-            imageName: ""
+            imageName: "ReverseTabletop"
         ),
         Exercise(
             name: "Air cuban rotation",
             description: "Strengthen shoulder external rotators",
             repetitions: .repetitions(15),
             correction: "Winged scapula",
-            imageName: ""
+            imageName: "AirCubanRotation"
         ),
         Exercise(
             name: "Standing spine rotation",
             description: "Strengthen spine rotators",
             repetitions: .repetitionsPerSide(15),
             correction: "Lateral pelvic tilt",
-            imageName: ""
+            imageName: "StandingSpineRotation"
         ),
         Exercise(
             name: "Lateral Plank",
             description: "Strengthen spine abductors/adductors",
             repetitions: .secondsPerSide(30),
             correction: "Lateral pelvic tilt",
-            imageName: ""
+            imageName: "LateralPlank"
         ),
         Exercise(
             name: "Standing neck extension",
             description: "Strengthen neck extensors",
             repetitions: .repetitions(15),
             correction: "Forward neck posture",
-            imageName: ""
+            imageName: "StandingNeckExtension"
         )
     ]
 }
