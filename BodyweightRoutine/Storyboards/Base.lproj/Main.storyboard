@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="44" translatesAutoresizingMaskIntoConstraints="NO" id="GFS-qQ-2K7">
-                                <rect key="frame" x="51.5" y="210" width="272" height="267.5"/>
+                                <rect key="frame" x="51.5" y="201" width="272" height="285.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Body Weight Routine" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NP0-vf-jLt">
                                         <rect key="frame" x="0.0" y="0.0" width="272" height="119.5"/>
@@ -28,7 +28,8 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dde-T5-ZZi">
-                                        <rect key="frame" x="119" y="163.5" width="34" height="30"/>
+                                        <rect key="frame" x="113" y="163.5" width="46" height="39"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <state key="normal" title="Start"/>
                                         <connections>
                                             <action selector="didStart:" destination="INI-RO-4wa" eventType="touchUpInside" id="QrW-iM-SC8"/>
@@ -36,7 +37,8 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rUQ-dU-Zhr">
-                                        <rect key="frame" x="115" y="237.5" width="42" height="30"/>
+                                        <rect key="frame" x="107" y="246.5" width="58" height="39"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <state key="normal" title="About"/>
                                         <connections>
                                             <action selector="about:" destination="INI-RO-4wa" eventType="touchUpInside" id="4pq-32-du5"/>
