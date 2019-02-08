@@ -19,10 +19,10 @@ class ExerciseVC: UIViewController {
 
     // MARK: - IBOutlets
     @IBOutlet weak var exerciseTitle: UILabel!
-    @IBOutlet weak var exerciseRepetitions: UILabel!
     @IBOutlet weak var exerciseDescription: UILabel!
     @IBOutlet weak var exerciseCorrection: UILabel!
     @IBOutlet weak var exerciseImage: UIImageView!
+    @IBOutlet weak var exerciseButton: UIButton!
 
 
     override func viewDidLoad() {
@@ -57,9 +57,10 @@ extension ExerciseVC {
 private extension ExerciseVC {
     func configureUI() {
         exerciseTitle.text = dataSource.title
-        exerciseRepetitions.text = dataSource.repetitions
         exerciseDescription.text = dataSource.description
         exerciseCorrection.text = dataSource.correction
         exerciseImage.image = dataSource.image
+        exerciseButton.imageView?.contentMode = .scaleAspectFit
+        exerciseButton.setTitle(dataSource.repetitions, for: .normal)
     }
 }
