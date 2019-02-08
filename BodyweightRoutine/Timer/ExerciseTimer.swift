@@ -22,6 +22,7 @@ final class ExerciseTimer {
     private lazy var events = makeEvents()
     private var timer: Timer?
     private var count: Int
+    private let sounds = TimerSounds()
 
     init(exercise: Exercise, delegate: ExerciseTimerDelegate) {
         self.count = 0
@@ -126,6 +127,7 @@ private extension ExerciseTimer {
         let event = events[self.count]
         print("event", event)
         delegate?.update(self, text: event.text)
+        sounds.play(for: event.type)
         count += 1
     }
 }

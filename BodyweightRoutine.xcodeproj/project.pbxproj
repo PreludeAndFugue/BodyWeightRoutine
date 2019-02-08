@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E16B44E220D0AE1004F9978 /* ShortBeep.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4E16B44D220D0AE1004F9978 /* ShortBeep.wav */; };
+		4E16B452220D0BA4004F9978 /* TimerSounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E16B451220D0BA4004F9978 /* TimerSounds.swift */; };
+		4E16B456220D0E7F004F9978 /* LongBeep.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4E16B455220D0E7F004F9978 /* LongBeep.wav */; };
 		4E3D9FCC21E7FBE900026B0C /* IntroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3D9FCB21E7FBE900026B0C /* IntroVC.swift */; };
 		4E3D9FCE21E7FFF300026B0C /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3D9FCD21E7FFF300026B0C /* AboutVC.swift */; };
 		4E3D9FD021E809DD00026B0C /* Timers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E3D9FCF21E809DD00026B0C /* Timers.storyboard */; };
@@ -73,6 +76,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E16B44D220D0AE1004F9978 /* ShortBeep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ShortBeep.wav; sourceTree = "<group>"; };
+		4E16B451220D0BA4004F9978 /* TimerSounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerSounds.swift; sourceTree = "<group>"; };
+		4E16B455220D0E7F004F9978 /* LongBeep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = LongBeep.wav; sourceTree = "<group>"; };
 		4E3D9FCB21E7FBE900026B0C /* IntroVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroVC.swift; sourceTree = "<group>"; };
 		4E3D9FCD21E7FFF300026B0C /* AboutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
 		4E3D9FCF21E809DD00026B0C /* Timers.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Timers.storyboard; sourceTree = "<group>"; };
@@ -152,6 +158,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E16B44C220D0AD7004F9978 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				4E16B44D220D0AE1004F9978 /* ShortBeep.wav */,
+				4E16B455220D0E7F004F9978 /* LongBeep.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		4E3D9FD121E8212F00026B0C /* Presentr */ = {
 			isa = PBXGroup;
 			children = (
@@ -185,6 +200,7 @@
 			children = (
 				4E3DA00221E824C400026B0C /* ExerciseTimer.swift */,
 				4E3DA00421E8253800026B0C /* TimerEvent.swift */,
+				4E16B451220D0BA4004F9978 /* TimerSounds.swift */,
 			);
 			path = Timer;
 			sourceTree = "<group>";
@@ -208,6 +224,7 @@
 		4EDB1AED21C9C000002E8776 /* BodyweightRoutine */ = {
 			isa = PBXGroup;
 			children = (
+				4E16B44C220D0AD7004F9978 /* Sounds */,
 				4EDB1B4621C9C95B002E8776 /* Coordinators */,
 				4EDB1B0021C9C00D002E8776 /* Model */,
 				4EDB1B4121C9C516002E8776 /* Storyboards */,
@@ -411,10 +428,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E3D9FF921E8212F00026B0C /* Montserrat-Regular.ttf in Resources */,
+				4E16B44E220D0AE1004F9978 /* ShortBeep.wav in Resources */,
 				4EDB1B4321C9C52E002E8776 /* Exercise.storyboard in Resources */,
 				4E3D9FD021E809DD00026B0C /* Timers.storyboard in Resources */,
 				4EDB1AF921C9C001002E8776 /* LaunchScreen.storyboard in Resources */,
 				4EDB1AF621C9C001002E8776 /* Assets.xcassets in Resources */,
+				4E16B456220D0E7F004F9978 /* LongBeep.wav in Resources */,
 				4EDB1AF421C9C000002E8776 /* Main.storyboard in Resources */,
 				4E3D9FEF21E8212F00026B0C /* SourceSansPro-Regular.ttf in Resources */,
 				4E3D9FF021E8212F00026B0C /* AlertViewController.xib in Resources */,
@@ -437,6 +456,7 @@
 				4E3DA00021E8215900026B0C /* TimerVC.swift in Sources */,
 				4E3DA00321E824C400026B0C /* ExerciseTimer.swift in Sources */,
 				4EDB1AF121C9C000002E8776 /* PagesVC.swift in Sources */,
+				4E16B452220D0BA4004F9978 /* TimerSounds.swift in Sources */,
 				4EDB1B3A21C9C496002E8776 /* PageboyViewController+Updating.swift in Sources */,
 				4EDB1B2921C9C496002E8776 /* PageboyViewController+Management.swift in Sources */,
 				4E3D9FE921E8212F00026B0C /* CoverVerticalAnimation.swift in Sources */,

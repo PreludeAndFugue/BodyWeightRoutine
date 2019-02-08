@@ -15,6 +15,20 @@ enum TimerEventType {
     case swapSide
 }
 
+
+extension TimerEventType {
+    var sound: URL? {
+        switch self {
+        case .blank, .swapSide: return nil
+        case .ready:
+            return Bundle.main.url(forResource: "ShortBeep", withExtension: "wav")!
+        case .start:
+            return Bundle.main.url(forResource: "LongBeep", withExtension: "wav")!
+        }
+    }
+}
+
+
 struct TimerEvent {
     let text: String
     let type: TimerEventType
