@@ -25,9 +25,9 @@
                                     <action selector="dismiss:" destination="Yop-7L-OSL" eventType="touchUpInside" id="N6z-AB-2GD"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cTq-gt-eSd">
-                                <rect key="frame" x="152.5" y="288.5" width="70.5" height="110"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="92"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="   " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cTq-gt-eSd">
+                                <rect key="frame" x="153.5" y="278" width="68" height="131.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="110"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
