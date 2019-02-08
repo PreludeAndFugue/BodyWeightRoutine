@@ -11,6 +11,7 @@ import UIKit
 protocol AboutDelegate: class {
     func done(_ vc: AboutVC)
     func contactMe(_ vc: AboutVC)
+    func viewRedditPost(_ vc: AboutVC)
 }
 
 class AboutVC: UIViewController {
@@ -33,6 +34,11 @@ class AboutVC: UIViewController {
 
     @IBAction func contactMe(_ sender: Any) {
         delegate?.contactMe(self)
+    }
+
+
+    @IBAction func viewRedditPost(_ sender: Any) {
+        delegate?.viewRedditPost(self)
     }
 }
 

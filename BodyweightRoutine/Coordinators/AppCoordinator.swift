@@ -73,6 +73,12 @@ extension AppCoordinator: AboutDelegate {
     }
 
 
+    func viewRedditPost(_ vc: AboutVC) {
+        let url = URL(string: "https://www.reddit.com/r/bodyweightfitness/comments/a09852/a_15_minutes_bodyweight_routine_for_posture_and/")!
+        UIApplication.shared.open(url, options: [:], completionHandler: nil)
+    }
+
+
     func done(_ vc: AboutVC) {
         vc.dismiss(animated: true, completion: nil)
     }
