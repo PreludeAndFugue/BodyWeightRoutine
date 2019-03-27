@@ -53,6 +53,8 @@ internal extension TransitionOperation.Action {
             default:
                 return .fromTop
             }
+        @unknown default:
+            fatalError()
         }
     }
     #else
