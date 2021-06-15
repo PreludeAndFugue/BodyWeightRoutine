@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Pageboy
 
 protocol PagesDelegate: AnyObject {
     func didCancel(_ vc: PagesVC)

@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+import Pageboy
 
 final class PagesDataSource {
     private let routine: Routine
