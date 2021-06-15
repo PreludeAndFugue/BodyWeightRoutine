@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gmN-oC-Ak1">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gmN-oC-Ak1">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -23,14 +25,17 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZEl-jX-L5C">
-                                <rect key="frame" x="151.5" y="100" width="72" height="44"/>
+                                <rect key="frame" x="155" y="100" width="65" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="WSp-Zw-AYl"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <inset key="imageEdgeInsets" minX="-10" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                <state key="normal" title="Text" image="PlayButton">
-                                    <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="tintColor" systemColor="systemPurpleColor"/>
+                                <inset key="imageEdgeInsets" minX="-5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Text">
+                                    <color key="titleColor" systemColor="systemPurpleColor"/>
+                                    <imageReference key="image" image="play.circle" catalog="system" symbolScale="large" renderingMode="template"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" weight="medium"/>
                                 </state>
                                 <connections>
                                     <action selector="showTimer:" destination="gmN-oC-Ak1" eventType="touchUpInside" id="WKW-a4-tiG"/>
@@ -67,7 +72,8 @@
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="KA9-vU-qp7"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="uLa-pi-gih" firstAttribute="centerX" secondItem="KA9-vU-qp7" secondAttribute="centerX" id="0Tt-DO-dAp"/>
                             <constraint firstItem="O9n-TS-NA1" firstAttribute="leading" secondItem="KA9-vU-qp7" secondAttribute="leading" constant="32" id="2Un-gN-kCN"/>
@@ -90,7 +96,6 @@
                             <constraint firstItem="pL4-Xo-HjS" firstAttribute="top" secondItem="uLa-pi-gih" secondAttribute="bottom" constant="44" id="qBt-Jd-wdr"/>
                             <constraint firstItem="O9n-TS-NA1" firstAttribute="top" secondItem="pL4-Xo-HjS" secondAttribute="bottom" constant="8" id="uHK-KR-7aY"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="KA9-vU-qp7"/>
                     </view>
                     <connections>
                         <outlet property="exerciseButton" destination="ZEl-jX-L5C" id="qT2-cQ-rJz"/>
@@ -106,6 +111,12 @@
         </scene>
     </scenes>
     <resources>
-        <image name="PlayButton" width="32" height="32"/>
+        <image name="play.circle" catalog="system" width="128" height="121"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
     </resources>
 </document>
