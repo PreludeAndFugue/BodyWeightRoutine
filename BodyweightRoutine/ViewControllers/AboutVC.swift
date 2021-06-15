@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol AboutDelegate: class {
+protocol AboutDelegate: AnyObject {
     func done(_ vc: AboutVC)
     func contactMe(_ vc: AboutVC)
     func viewRedditPost(_ vc: AboutVC)

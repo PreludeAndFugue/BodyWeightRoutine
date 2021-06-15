@@ -10,7 +10,7 @@ import Foundation
 
 typealias ExerciseTimerUpdater = (String) -> Void
 
-protocol ExerciseTimerDelegate: class {
+protocol ExerciseTimerDelegate: AnyObject {
     func update(_ exerciseTimer: ExerciseTimer, text: String)
     func done(_ exerciseTimer: ExerciseTimer)
 }

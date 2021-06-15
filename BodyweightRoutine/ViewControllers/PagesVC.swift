@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol PagesDelegate: class {
+protocol PagesDelegate: AnyObject {
     func didCancel(_ vc: PagesVC)
     func showTimer(_ vc: ExerciseVC, exercise: Exercise)
 }
